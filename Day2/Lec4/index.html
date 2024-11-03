@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--     table>(thead>th*3)+(tbody>tr*3)+tfoot>tr*3 -->
+    <table border="1">
+        <thead>
+            <th>SL NO.</th>
+            <th>NAME</th>
+            <th>PHONE</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td colspan="2">Piyush</td>
+                <!-- <td>30</td> -->
+            </tr>
+            <tr> 
+                <td>2</td>
+                <td>Sanju</td>
+                <td rowspan="2">40</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Tanushree</td>
+                <!-- <td>50</td> -->
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>this is all</td>
+        </tfoot>
+    </table>
+
+
+    <!-- table(thead>th*3)+tbody>tr>td*3 -->
+     
+    <table border="1">
+        <thead>
+            <th>SL NO</th>
+            <th>NAME</th>
+            <th>PHONE</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">row 1 cell 1</td>
+                <td>row 1 cell 2</td>
+                <td>row1 cell 3</td>
+            </tr>
+            <tr>
+                <td>row 2 cell 2</td>
+                <td>row 2 cell 3</td>
+            </tr>
+            <tr>
+                <td colspan="3">row 3 cell 1</td>
+            </tr>
+        </tbody>
+    </table>
+    
+
+    <table border="1">
+        <thead>
+            <th>No.</th>
+            <th>Full Name</th>
+            <th>Position</th>
+            <th>Salary</th>
+            <th>Type</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bill Gates</td>
+                <td>Microsoft</td>
+                <td>1000</td>
+                <td rowspan="4">Company Founder</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Steve jobs</td>
+                <td>Apple</td>
+                <td>2000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Devon Larret</td>
+                <td>Arm wrestler</td>
+                <td>4000</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Mark Zukerberg</td>
+                <td>Facebook</td>
+                <td>5000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="3">Total Expense</td>
+            <td>12000</td>
+        </tfoot>
+    </table>
+
+    <table border="3">
+        <thead>
+            <tr>
+                <th rowspan="3">Day</th>
+                <th colspan="3">Seminar</th>
+            </tr>
+            <tr>
+                <th colspan="2">Schedule</th>
+                <th rowspan="2">Topic</th>
+            </tr>
+            <tr>
+                <th>Begin</th>
+                <th>End</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2">8.00</td>
+                <td rowspan="2">5.00</td>
+                <td>Introduction to XML</td>
+            </tr>
+            <tr>
+                <td>Validity DLD</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Tuesday</td>
+                <td>8.00</td>
+                <td>11.00</td>
+                <td rowspan="2">XPath</td>
+            </tr>
+            <tr>
+                <td>11.00</td>
+                <td>2.00</td>
+                
+            </tr>
+            <tr>
+                <td>2.00</td>
+                <td>5.00</td>
+                <td>XSL Transformation</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>8.00</td>
+                <td>12.00</td>
+                <td>XSL Formatting</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
